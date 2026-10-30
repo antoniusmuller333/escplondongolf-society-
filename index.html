@@ -273,7 +273,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <li>Friday 6 November, 20:30 to 23:00</li>
           <li>Golf SQ, 14 Farm Lane, Fulham</li>
           <li>Club bags provided</li>
-          <li>Drinks available at the bar</li>
+          <li><strong style="color:var(--gold)">20% off your first drink</strong> at the bar</li>
         </ul>
         <p class="id-note" role="note"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="4" width="16" height="12" rx="2"/><circle cx="7" cy="9" r="2"/><path d="M4.5 13.5c.6-1.3 1.5-2 2.5-2s1.9.7 2.5 2M11.5 8h4M11.5 11h3"/></svg><span><strong>Bring your ID.</strong> Please bring a valid photo ID, such as a passport or driving licence. Without it, the bar can't serve you alcohol.</span></p>
         <a class="btn btn-gold js-ticket" id="buy" href="#tickets">Buy ticket</a>
@@ -336,7 +336,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 // Paste the Stripe Payment Link and the price here once they exist.
 const CONFIG = {
   ticketUrl: "",   // e.g. "https://buy.stripe.com/xxxx"
-  price: ""        // e.g. "£15"
+  price: "£23.50"  // ticket price shown on the page
 };
 
 if (CONFIG.price) document.getElementById("price").textContent = CONFIG.price;
