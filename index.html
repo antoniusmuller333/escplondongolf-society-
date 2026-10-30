@@ -112,6 +112,7 @@ section{padding-block:88px}
 .t-meta li{display:flex;gap:12px;align-items:baseline}
 .t-meta li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--turf);transform:translateY(-2px)}
 .id-note{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px solid var(--gold);border-radius:10px;background:color-mix(in srgb,var(--gold) 10%,transparent);font-size:15px;line-height:1.45;color:var(--fg)}.id-note svg{flex:none;color:var(--gold);margin-top:1px}.id-note strong{color:var(--gold)}
+.t-price-wrap{display:grid;justify-items:end;gap:2px}.t-per{font-size:14px;font-weight:600;color:var(--muted)}.t-deal{padding:14px 16px;border-radius:10px;background:var(--surface-2);font-size:15px;line-height:1.5}.t-deal strong{color:var(--gold)}
 .ticket .btn{width:100%}
 .t-note{font-size:14px;color:var(--muted);text-align:center}
 .steps{display:grid;gap:0;margin:0;padding:0;list-style:none;counter-reset:s}
@@ -267,8 +268,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
             <span class="eyebrow">Event ticket</span>
             <span class="t-name">Autumn Opening</span>
           </div>
-          <span class="t-price" id="price">£TBC</span>
+          <div class="t-price-wrap"><span class="t-price" id="price">£TBC</span><span class="t-per">for 2.5 hours</span></div>
         </div>
+        <p class="t-deal"><strong>Great value:</strong> Golf SQ normally charges £27 per 30 minutes. With this ticket you get the full 2.5 hours for £23.50.</p>
         <ul class="t-meta">
           <li>Friday 6 November, 20:30 to 23:00</li>
           <li>Golf SQ, 14 Farm Lane, Fulham</li>
